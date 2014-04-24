@@ -1,0 +1,17 @@
+name: Resources
+author: Pedro Carmo - @drocarmo
+
+markdown: kramdown
+pygments: true
+
+include:
+- .htaccess
+
+exclude:
+- README.md
+- Rakefile
+- .sass-cache
+- .site
+
+keep_files:
+- .git

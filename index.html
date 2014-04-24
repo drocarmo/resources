@@ -1,0 +1,55 @@
+---
+layout: default
+title: Resources
+---
+
+<section class="container about">
+  <h1>Resources</h1>
+  <p>This is where I store some of my favorite resources around the topic of product design and development, for the practice of always learning and inspiring from other people on the web. Add to this list by submitting a pull-request on <a href="https://github.com/drocarmo/resources" target="_blank">github</a>.</p>
+
+  <hr>
+
+  <!-- Essays -->
+  <section class="posts">
+    <h2>Essays</h2>
+    {% for essay in site.data.essays %}
+      <div class="post">
+        <p>
+          <a href="{{ essay.url }}" target="_blank">{{ essay.title }}</a>
+        </p>
+        <h4 class="date">{{ essay.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Interaction Design -->
+    <section class="posts">
+    <h2>Interaction Design</h2>
+    {% for interaction in site.data.interactions %}
+      <div class="post">
+        <p>
+          <a href="{{ interaction.url }}" target="_blank">{{ interaction.title }}</a>
+        </p>
+        <h4 class="date">{{ interaction.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Talks -->
+  <section class="posts">
+    <h2>Talks</h2>
+    {% for talk in site.data.talks %}
+      <div class="post">
+        <p>
+          <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>
+        </p>
+        <h4 class="date">{{ talk.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <hr>
+
+  <p class="contact">Cheers!</p>
+
+</section>
