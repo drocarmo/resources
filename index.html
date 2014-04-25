@@ -7,15 +7,41 @@ title: Resources
   <h1>Resources on Product Design</h1>
   <p>This is a list of some of my favorite resources around the topic of product design. It includes talks, essays and articles on the best practices, theories and principles of designing for the web. Add to this list by submitting a pull-request on <a href="https://github.com/drocarmo/resources" target="_blank">github</a>.</p>
 
-  <!-- Essays -->
+  <!-- Approach -->
   <section class="posts">
-    <h2>Essays</h2>
-    {% for essay in site.data.essays %}
+    <h2>Approach</h2>
+    {% for approach in site.data.approach %}
       <div class="post">
         <p>
-          <a href="{{ essay.url }}" target="_blank">{{ essay.title }}</a>
+          <a href="{{ approach.url }}" target="_blank">{{ approach.title }}</a>
         </p>
-        <h4 class="date">{{ essay.author }}</h4>
+        <h4 class="date">{{ approach.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Copy -->
+  <section class="posts">
+    <h2>Copywriting</h2>
+    {% for copy in site.data.copys %}
+      <div class="post">
+        <p>
+          <a href="{{ copy.url }}" target="_blank">{{ copy.title }}</a>
+        </p>
+        <h4 class="date">{{ copy.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Grid -->
+  <section class="posts">
+    <h2>Grids</h2>
+    {% for grid in site.data.grids %}
+      <div class="post">
+        <p>
+          <a href="{{ grid.url }}" target="_blank">{{ grid.title }}</a>
+        </p>
+        <h4 class="date">{{ grid.author }}</h4>
       </div>
     {% endfor %}
   </section>
@@ -33,6 +59,32 @@ title: Resources
     {% endfor %}
   </section>
 
+  <!-- Interface/Visual Design -->
+    <section class="posts">
+    <h2>Interface & Visual Design</h2>
+    {% for interface in site.data.interfaces %}
+      <div class="post">
+        <p>
+          <a href="{{ interface.url }}" target="_blank">{{ interface.title }}</a>
+        </p>
+        <h4 class="date">{{ interface.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Principles -->
+    <section class="posts">
+    <h2>Principles</h2>
+    {% for principle in site.data.principles %}
+      <div class="post">
+        <p>
+          <a href="{{ principle.url }}" target="_blank">{{ principle.title }}</a>
+        </p>
+        <h4 class="date">{{ principle.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
   <!-- Talks -->
   <section class="posts">
     <h2>Talks</h2>
@@ -42,6 +94,19 @@ title: Resources
           <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>
         </p>
         <h4 class="date">{{ talk.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Type -->
+  <section class="posts">
+    <h2>Typography</h2>
+    {% for type in site.data.types %}
+      <div class="post">
+        <p>
+          <a href="{{ type.url }}" target="_blank">{{ type.title }}</a>
+        </p>
+        <h4 class="date">{{ type.author }}</h4>
       </div>
     {% endfor %}
   </section>
