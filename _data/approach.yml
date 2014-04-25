@@ -8,6 +8,10 @@
   url: http://boblucky.com/reflect/mar99.htm
   author: Robert W. Lucky
 
+- title: Dao Of Web Design
+  url: http://alistapart.com/article/dao/
+  author: John Allsopp
+
 - title: Designer Duds Losing Our Seat At The Table
   url: https://mokriya.quora.com/Designer-Duds-Losing-Our-Seat-at-the-Table
   author: Mills Baker
@@ -16,6 +20,10 @@
   url: http://frankchimero.com/talks/designing-in-the-borderlands/transcript/
   author: Frank Chimero
 
+- title: Getting Real
+  url: http://gettingreal.37signals.com/toc.php
+  author: Basecamp
+
 - title: Learning To See
   url: http://ia.net/blog/learning-to-see/
   author: Oliver Reichenstein
@@ -23,6 +31,14 @@
 - title: Process Is Process
   url: https://medium.com/product-design/2fada277ca30
   author: Henry Modisett
+
+- title: The Design Of Everyday Things
+  url: http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107
+  author: Donald Norman
+
+- title: Understanding Web Design
+  url: http://alistapart.com/article/understandingwebdesign
+  author: Jeffrey Zeldman
 
 - title: What Screen Wants
   url: http://frankchimero.com/talks/what-screens-want/transcript/

@@ -1,0 +1,37 @@
+# Implementation
+
+- title: Code Guide
+  url: http://mdo.github.io/code-guide/
+  author: Mark Otto
+
+- title: CSS Guidelines
+  url: https://github.com/csswizardry/CSS-Guidelines
+  author: Harry Roberts
+
+- title: Designing With Code
+  url: http://www.teehanlax.com/blog/designing-with-code/
+  author: Jeremy Bell
+
+- title: Eloquent Javascript
+  url: http://eloquentjavascript.net/contents.html
+  author: Marijn Haverbeke
+
+- title: Naming UI Components In OOCSS
+  url: http://csswizardry.com/2014/03/naming-ui-components-in-oocss/
+  author: Harry Roberts
+
+- title: Performance As Design
+  url: http://bradfrostweb.com/blog/post/performance-as-design/
+  author: Ethan Marcotte
+
+- title: Reading List
+  url: http://mrmrs.cc/reading/
+  author: Adam Morse
+
+- title: Responsive Web Design
+  url: http://www.abookapart.com/products/responsive-web-design
+  author: Ethan Marcotte
+
+- title: Sass For Web Designers
+  url: http://www.abookapart.com/products/sass-for-web-designers
+  author: Dan Cederholm

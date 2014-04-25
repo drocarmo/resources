@@ -23,7 +23,7 @@ title: Resources
   <!-- Copy -->
   <section class="posts">
     <h2>Copywriting</h2>
-    {% for copy in site.data.copys %}
+    {% for copy in site.data.copy %}
       <div class="post">
         <p>
           <a href="{{ copy.url }}" target="_blank">{{ copy.title }}</a>
@@ -42,6 +42,32 @@ title: Resources
           <a href="{{ grid.url }}" target="_blank">{{ grid.title }}</a>
         </p>
         <h4 class="date">{{ grid.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Implementation -->
+    <section class="posts">
+    <h2>Implementation</h2>
+    {% for implementation in site.data.implementations %}
+      <div class="post">
+        <p>
+          <a href="{{ implementation.url }}" target="_blank">{{ implementation.title }}</a>
+        </p>
+        <h4 class="date">{{ implementation.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Implementation (iOS) -->
+    <section class="posts">
+    <h2>Implementation (iOS)</h2>
+    {% for ios in site.data.ios %}
+      <div class="post">
+        <p>
+          <a href="{{ ios.url }}" target="_blank">{{ ios.title }}</a>
+        </p>
+        <h4 class="date">{{ ios.author }}</h4>
       </div>
     {% endfor %}
   </section>
@@ -68,6 +94,19 @@ title: Resources
           <a href="{{ interface.url }}" target="_blank">{{ interface.title }}</a>
         </p>
         <h4 class="date">{{ interface.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Mobile -->
+    <section class="posts">
+    <h2>Mobile</h2>
+    {% for mobile in site.data.mobile %}
+      <div class="post">
+        <p>
+          <a href="{{ mobile.url }}" target="_blank">{{ mobile.title }}</a>
+        </p>
+        <h4 class="date">{{ mobile.author }}</h4>
       </div>
     {% endfor %}
   </section>
@@ -101,12 +140,25 @@ title: Resources
   <!-- Type -->
   <section class="posts">
     <h2>Typography</h2>
-    {% for type in site.data.types %}
+    {% for type in site.data.type %}
       <div class="post">
         <p>
           <a href="{{ type.url }}" target="_blank">{{ type.title }}</a>
         </p>
         <h4 class="date">{{ type.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- UX -->
+  <section class="posts">
+    <h2>UX</h2>
+    {% for ux in site.data.ux %}
+      <div class="post">
+        <p>
+          <a href="{{ ux.url }}" target="_blank">{{ ux.title }}</a>
+        </p>
+        <h4 class="date">{{ ux.author }}</h4>
       </div>
     {% endfor %}
   </section>

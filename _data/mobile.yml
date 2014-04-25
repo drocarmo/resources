@@ -1,0 +1,21 @@
+# Mobile
+
+- title: Android Design
+  url: http://developer.android.com/design/index.html
+  author: Android
+
+- title: Human Interface Guidelines
+  url: https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/MobileHIG.pdf
+  author: Apple
+
+- title: iOS7 Design Resources
+  url: https://developer.apple.com/library/ios/design/index.html
+  author: Apple
+
+- title: Mobile First
+  url: http://www.abookapart.com/products/mobile-first
+  author: Luke Wroblewski
+
+- title: Multi-Device Layout Patterns
+  url: http://www.lukew.com/ff/entry.asp?1514
+  author: Luke Wroblewski
