@@ -12,6 +12,10 @@
   url: http://www.teehanlax.com/blog/designing-with-code/
   author: Jeremy Bell
 
+- title: Designing Open Source
+  url: https://medium.com/words-about-design/e3adc220cfa7
+  author: Jon Gold
+
 - title: Eloquent Javascript
   url: http://eloquentjavascript.net/contents.html
   author: Marijn Haverbeke
@@ -35,3 +39,7 @@
 - title: Sass For Web Designers
   url: http://www.abookapart.com/products/sass-for-web-designers
   author: Dan Cederholm
+
+- title: Scalable and Modular Architecture For CSS
+  url: http://smacss.com/book
+  author: Jonathan Snook
