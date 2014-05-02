@@ -20,6 +20,10 @@
   url: http://eloquentjavascript.net/contents.html
   author: Marijn Haverbeke
 
+- title: HTML Semantics & Front-end Architecture
+  url: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+  author: Nicolas Gallagher
+
 - title: Naming UI Components In OOCSS
   url: http://csswizardry.com/2014/03/naming-ui-components-in-oocss/
   author: Harry Roberts
