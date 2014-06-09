@@ -1,9 +1,5 @@
 # Development (iOS)
 
-- title: Designers, You Can Objective-C, Too!
-  url: https://medium.com/building-potluck/7f493cdfa381
-  author: Meng To
-
 - title: Developing iOS7 Apps
   url: https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550
   author: Stanford
@@ -28,6 +24,6 @@
   url: http://subjc.com/
   author: Sam Page
 
-- title: Objective-C Style Guide
-  url: https://github.com/NYTimes/objective-c-style-guide
-  author: The New York Times
+- title: The Swift Programming Language
+  url: https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11
+  author: Apple Inc.
