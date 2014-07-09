@@ -124,6 +124,19 @@ title: Resources
     {% endfor %}
   </section>
 
+  <!-- Process -->
+    <section class="posts">
+    <h2>Process</h2>
+    {% for process in site.data.process %}
+      <div class="post">
+        <p>
+          <a href="{{ process.url }}" target="_blank">{{ process.title }}</a>
+        </p>
+        <h4 class="date">{{ process.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
   <!-- Talks -->
   <section class="posts">
     <h2>Talks</h2>
