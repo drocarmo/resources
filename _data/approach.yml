@@ -4,10 +4,6 @@
   url: https://irondavy.quora.com/Applied-Discovery-Presentation-from-Build-2013
   author: David Cole
 
-- title: Connections
-  url: http://boblucky.com/reflect/mar99.htm
-  author: Robert W. Lucky
-
 - title: Creativity, Inc.
   url: http://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012
   author: Ed Catmull
@@ -32,9 +28,9 @@
   url: http://ia.net/blog/learning-to-see/
   author: Oliver Reichenstein
 
-- title: Product Design For The Web
-  url: http://www.amazon.com/Product-Design-Web-Principles-Designing/dp/0321929039
-  author: Randy J. Hunt
+- title: On Magical Sofware
+  url: http://insideintercom.io/on-magical-software/
+  author: Des Traynor
 
 - title: The Design Of Everyday Things
   url: http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107
@@ -43,10 +39,6 @@
 - title: Understanding The Role Of Design
   url: http://www.gv.com/lib/cheat-sheet-understanding-the-role-of-design-in-startups
   author: John Zeratsky
-
-- title: Understanding Web Design
-  url: http://alistapart.com/article/understandingwebdesign
-  author: Jeffrey Zeldman
 
 - title: When Good Design Isn't Enough
   url: https://medium.com/design-startups/503f75428f7f
