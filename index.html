@@ -33,6 +33,19 @@ title: Resources
     {% endfor %}
   </section>
 
+  <!-- Films -->
+  <section class="posts">
+    <h2>Films</h2>
+    {% for film in site.data.films %}
+      <div class="post">
+        <p>
+          <a href="{{ film.url }}" target="_blank">{{ film.title }}</a>
+        </p>
+        <h4 class="date">{{ film.author }}</h4>
+      </div>
+    {% endfor %}
+  </section>
+
   <!-- Grid -->
   <section class="posts">
     <h2>Grids</h2>
