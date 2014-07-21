@@ -4,6 +4,10 @@
   url: http://en.wikipedia.org/wiki/12_basic_principles_of_animation
   author: Wikipedia
 
+- title: 12 Basic Principles Of Animation (Video)
+  url: https://vimeo.com/93206523
+  author: Vimeo
+
 - title: A Brief Rant On The Future Of Interaction Design
   url: http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
   author: Bret Victor
@@ -11,6 +15,10 @@
 - title: Designing For The Next Step
   url: http://bokardo.com/archives/designing-for-the-next-step
   author: Joshua Porter
+
+- title: From Cartoons To The User Interface
+  url: http://selflanguage.org/_static/published/animation.pdf
+  author: Bay-Wei Chang & David Ungar
 
 - title: Meaninful Transitions
   url: http://www.ui-transitions.com/
@@ -24,6 +32,18 @@
   url: http://paulstamatiou.com/design-provide-meaning-with-motion/
   author: Paul Stamatiou
 
+- title: The Animator's Survival Kit
+  url: http://www.amazon.com/The-Animators-Survival-Richard-Williams/dp/0571202284
+  author: Richard Williams
+
+- title: The Illusion of Life
+  url: http://www.amazon.com/The-Illusion-Life-Disney-Animation/dp/0786860707
+  author: Ollie Johnston & Frank Thomas
+
 - title: Transitional Interfaces
   url: https://medium.com/design-ux/926eb80d64e3
   author: Pasquale D'Silva
+
+- title: UI Animation & UX, A Not So Secret Friendship
+  url: http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship
+  author: Val Head
