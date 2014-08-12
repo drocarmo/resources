@@ -1,0 +1,17 @@
+html,
+body {
+  background: #252525;
+  color: #e0e0e0;
+  font-family: 'Karla', Helvetica Neue, sans-serif; }
+
+a {
+  color: #e0e0e0; }
+
+h2 {
+  opacity: .3; }
+
+.posts > .post .date {
+  font-family: 'Merriweather', Times New Roman, serif;
+  opacity: .5;
+  margin-top: -40px;
+  font-size: 10px; }
