@@ -9,9 +9,3 @@ a {
 
 h2 {
   opacity: .3; }
-
-.posts > .post .date {
-  font-family: 'Merriweather', Times New Roman, serif;
-  opacity: .5;
-  margin-top: -40px;
-  font-size: 10px; }
