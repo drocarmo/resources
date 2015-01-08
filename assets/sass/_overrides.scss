@@ -16,7 +16,6 @@ h1 {
   @media screen and (min-width: 700px) {
     font-size: 80px;
     margin-top: -45px;
-    margin-left: -30px;
   }
 }
 
@@ -24,6 +23,7 @@ h2 {
   font-size: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-left: -30px;
 }
 
 p {

@@ -13,13 +13,13 @@ h1 {
   @media screen and (min-width: 700px) {
     h1 {
       font-size: 80px;
-      margin-top: -45px;
-      margin-left: -30px; } }
+      margin-top: -45px; } }
 
 h2 {
   font-size: 18px;
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-left: -30px; }
 
 p {
   font-family: menlo, monospace;
