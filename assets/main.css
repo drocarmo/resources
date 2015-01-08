@@ -1,3 +1,6 @@
 html,
 body {
   background: #f4efdf; }
+
+:selection {
+  color: #383838; }
