@@ -7,3 +7,23 @@ body {
   background: #f4efdf;
   color: #383838;
 }
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: -25px;
+
+  @media screen and (min-width: 700px) {
+    font-size: 80px;
+    margin-top: -40px;
+  }
+}
+
+p {
+  font-family: menlo, monospace;
+  font-size: 14px;
+
+  @media screen and (min-width: 700px) {
+    font-size: 16px;
+  }
+}
