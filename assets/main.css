@@ -2,5 +2,6 @@ html,
 body {
   background: #f4efdf; }
 
-:selection {
+::selection {
+  background: #f4efdf;
   color: #383838; }
