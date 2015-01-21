@@ -9,6 +9,8 @@ body {
 }
 
 h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   text-align: center;
   font-size: 45px;
   margin-top: -25px;
@@ -20,10 +22,15 @@ h1 {
 }
 
 h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-left: -40px;
+
+  @media screen and (min-width: 700px) {
+    margin-left: -40px;
+  }
 }
 
 p {
