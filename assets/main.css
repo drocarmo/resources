@@ -25,3 +25,6 @@ p {
   @media screen and (min-width: 700px) {
     p {
       font-size: 16px; } }
+
+a > h2 {
+  border-bottom: none; }
