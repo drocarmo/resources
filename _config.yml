@@ -2,7 +2,7 @@ name: Resources
 author: Pedro Carmo - @drocarmo
 
 markdown: kramdown
-pygments: true
+highlighter: pygments
 
 include:
 - .htaccess
