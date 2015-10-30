@@ -5,11 +5,11 @@
   author: Android
 
 - title: Human Interface Guidelines
-  url: https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/MobileHIG.pdf
+  url: https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/
   author: Apple
 
-- title: iOS7 Design Resources
-  url: https://developer.apple.com/library/ios/design/index.html
+- title: iOS Design Resources
+  url: https://developer.apple.com/design/
   author: Apple
 
 - title: Mobile First
