@@ -62,8 +62,11 @@ p {
     p {
       font-size: 16px; } }
 
-a:hover, a:active {
-  color: #e83943; }
+a {
+  box-shadow: none; }
+  a:hover, a:active {
+    box-shadow: none;
+    color: #e83943; }
 
 .nav ul {
   margin: 0;
