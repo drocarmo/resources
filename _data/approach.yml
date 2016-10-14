@@ -68,13 +68,13 @@
   url: http://www.gv.com/lib/cheat-sheet-understanding-the-role-of-design-in-startups
   author: John Zeratsky
 
-- title: When Good Design Isn't Enough
-  url: http://idlewords.com/talks/web_design_first_100_years.htm
-  author: Johnnie Manzari
-
 - title: Web Design, The First 100 Years
-  url: https://medium.com/design-startups/503f75428f7f
+  url: http://idlewords.com/talks/web_design_first_100_years.htm
   author: Maciej Cegłowski
+
+- title: When Good Design Isn't Enough
+  url: https://medium.com/design-startups/503f75428f7f
+  author: Johnnie Manzari
 
 - title: What Screen Wants
   url: http://www.frankchimero.com/writing/what-screens-want/
