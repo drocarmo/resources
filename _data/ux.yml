@@ -4,9 +4,17 @@
   url: http://52weeksofux.com/post/475093254/10-principles-of-ux
   author: Josh Brewer
 
+- title: Accessibility Guidelines
+  url: http://accessibility.voxmedia.com/
+  author: Vox Media
+
 - title: A Guide To Research
   url: http://www.gv.com/lib/design-staff-guide-to-research
   author: John Zeratsky
+
+- title: A Usable Guide To Cognitive Dimensions
+  url: http://www.uxbooth.com/articles/a-usable-guide-to-cognitive-dimensions/
+  author: Fabio Muniz
 
 - title: Everybody Scrolls
   url: http://www.hugeinc.com/ideas/perspective/everybody-scrolls
@@ -19,3 +27,11 @@
 - title: Fitt's Law
   url: http://en.wikipedia.org/wiki/Fitts's_law
   author: Paul Fitts
+
+- title: Onboarding Never Stops
+  url: https://medium.com/intercom-inside/onboarding-never-stops-a9ccfd782ffd
+  author: Ruairí Galavan
+
+- title: Why Bother with Accessibility?
+  url: https://24ways.org/2013/why-bother-with-accessibility/
+  author: Laura Kalbag
