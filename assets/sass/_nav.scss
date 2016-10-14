@@ -1,0 +1,33 @@
+// Hero
+
+.nav {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    margin: 0 auto;
+    z-index: 1000;
+    position: fixed;
+    top: 320px;
+    left: 15px;
+    border-radius: 4px;
+    width: 220px;
+    padding: 5px;
+
+    li {
+      font-weight: 700;
+    }
+
+    a {
+      font-weight: 400;
+      color: #868080;
+      border-bottom: none;
+      padding: 5px;
+
+      // &:hover,
+      // &:active {
+      //   color: #e83943;
+      // }
+    }
+  }
+}

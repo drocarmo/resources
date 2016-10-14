@@ -1,0 +1,20 @@
+// Hero
+
+.hero {
+  height: 200px;
+  background-color: #e83943;
+  color: #fff;
+  margin: 0 auto;
+
+  p {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 700px) {
+    height: 175px;
+
+    p {
+      margin-top: -30px;
+    }
+  }
+}

@@ -1,3 +1,5 @@
+// Overrides
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -12,15 +14,18 @@ h1 {
 }
 
 h2 {
+  border-bottom: 4px solid #f4f4f4;
+  padding: 10px 0;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 18px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  margin-bottom: 60px;
 
-  @media screen and (min-width: 700px) {
-    margin-left: -40px;
-  }
+}
+
+h5 {
+  font-family: menlo, monospace;
+  font-size: 12px;
 }
 
 p {
@@ -32,6 +37,34 @@ p {
   }
 }
 
-a > h2 {
-  border-bottom: none;
+a {
+  &:hover,
+  &:active {
+    color: #e83943;
+  }
+}
+
+.nav {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    text-indent: 0;
+    // font-family: menlo, monospace;
+    // font-size: 14px;
+  }
+
+  li:before {
+    content: "";
+    margin-right: 0;
+  }
+}
+
+.posts > .post {
+  @media screen and (min-width: 700px) {
+    float: none;
+    width: 100%;
+  }
 }

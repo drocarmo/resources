@@ -3,193 +3,249 @@ layout: default
 title: Resources on Product Design
 ---
 
-<h1>Resources on Product Design</h1>
+<section class="hero">
+  <h1>Resources on Product Design</h1>
+  <section class="container">
+    <p>A personal curated library of resources on product design</p>
+  </section>
+</section>
 
-<section class="container about">
+<section class="nav">
+  <ul>
+    <li>
+      Table of Contents
+    </li>
+    <li>
+      <a href="#approach">Approach</a>
+    </li>
+    <li>
+      <a href="#copywriting">Copywriting</a>
+    </li>
+    <li>
+      <a href="#films">Film</a>
+    </li>
+    <li>
+      <a href="#grids">Grid</a>
+    </li>
+    <li>
+      <a href="#interaction">Interaction Design</a>
+    </li>
+    <li>
+      <a href="#visual">Interface & Visual Design</a>
+    </li>
+    <li>
+      <a href="#dev-ios">iOS Development</a>
+    </li>
+    <li>
+      <a href="#mobile">Mobile</a>
+    </li>
+    <li>
+      <a href="#principles">Principles</a>
+    </li>
+    <li>
+      <a href="#process">Process</a>
+    </li>
+    <li>
+      <a href="#talks">Talks</a>
+    </li>
+    <li>
+      <a href="#typography">Typography</a>
+    </li>
+    <li>
+      <a href="#ux">UX</a>
+    </li>
+    <li>
+      <a href="#dev">Web Development</a>
+    </li>
+</section>
+
+<section class="container">
   <!-- Approach -->
   <section class="posts">
-    <h2 id="approach">// Approach</h2>
+    <h2 id="approach">Approach</h2>
     {% for approach in site.data.approach %}
       <div class="post">
         <p>
           <a href="{{ approach.url }}" target="_blank">{{ approach.title }}</a>
         </p>
-        <h5 class="date">{{ approach.author }}</h5>
+        <h5 class="date">by {{ approach.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Copy -->
   <section class="posts">
-    <h2 id="copywriting">// Copywriting</h2>
+    <h2 id="copywriting">Copywriting</h2>
     {% for copy in site.data.copy %}
       <div class="post">
         <p>
           <a href="{{ copy.url }}" target="_blank">{{ copy.title }}</a>
         </p>
-        <h5 class="date">{{ copy.author }}</h5>
+        <h5 class="date">by {{ copy.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Films -->
   <section class="posts">
-    <h2 id="films">// Films</h2>
+    <h2 id="films">Film</h2>
     {% for film in site.data.films %}
       <div class="post">
         <p>
           <a href="{{ film.url }}" target="_blank">{{ film.title }}</a>
         </p>
-        <h5 class="date">{{ film.author }}</h5>
+        <h5 class="date">by {{ film.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Grid -->
   <section class="posts">
-    <h2 id="grids">// Grids</h2>
+    <h2 id="grids">Grid</h2>
     {% for grid in site.data.grids %}
       <div class="post">
         <p>
           <a href="{{ grid.url }}" target="_blank">{{ grid.title }}</a>
         </p>
-        <h5 class="date">{{ grid.author }}</h5>
-      </div>
-    {% endfor %}
-  </section>
-
-  <!-- Development -->
-    <section class="posts">
-    <h2 id="dev">// Development</h2>
-    {% for development in site.data.development %}
-      <div class="post">
-        <p>
-          <a href="{{ development.url }}" target="_blank">{{ development.title }}</a>
-        </p>
-        <h5 class="date">{{ development.author }}</h5>
-      </div>
-    {% endfor %}
-  </section>
-
-  <!-- Development (iOS) -->
-    <section class="posts">
-    <h2 id="dev-ios">// Development (iOS)</h2>
-    {% for ios in site.data.ios %}
-      <div class="post">
-        <p>
-          <a href="{{ ios.url }}" target="_blank">{{ ios.title }}</a>
-        </p>
-        <h5 class="date">{{ ios.author }}</h5>
+        <h5 class="date">by {{ grid.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Interaction Design -->
-    <section class="posts">
-    <h2 id="interaction">// Interaction Design</h2>
+  <section class="posts">
+    <h2 id="interaction">Interaction Design</h2>
     {% for interaction in site.data.interactions %}
       <div class="post">
         <p>
           <a href="{{ interaction.url }}" target="_blank">{{ interaction.title }}</a>
         </p>
-        <h5 class="date">{{ interaction.author }}</h5>
+        <h5 class="date">by {{ interaction.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Interface/Visual Design -->
-    <section class="posts">
-    <h2 id="visual">// Interface & Visual Design</h2>
+  <section class="posts">
+    <h2 id="visual">Interface & Visual Design</h2>
     {% for interface in site.data.interfaces %}
       <div class="post">
         <p>
           <a href="{{ interface.url }}" target="_blank">{{ interface.title }}</a>
         </p>
-        <h5 class="date">{{ interface.author }}</h5>
+        <h5 class="date">by {{ interface.author }}</h5>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- iOS Development -->
+  <section class="posts">
+    <h2 id="dev-ios">iOS Development</h2>
+    {% for ios in site.data.ios %}
+      <div class="post">
+        <p>
+          <a href="{{ ios.url }}" target="_blank">{{ ios.title }}</a>
+        </p>
+        <h5 class="date">by {{ ios.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Mobile -->
-    <section class="posts">
-    <h2 id="mobile">// Mobile</h2>
+  <section class="posts">
+    <h2 id="mobile">Mobile</h2>
     {% for mobile in site.data.mobile %}
       <div class="post">
         <p>
           <a href="{{ mobile.url }}" target="_blank">{{ mobile.title }}</a>
         </p>
-        <h5 class="date">{{ mobile.author }}</h5>
+        <h5 class="date">by {{ mobile.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Principles -->
-    <section class="posts">
-    <h2 id="principles">// Principles</h2>
+  <section class="posts">
+    <h2 id="principles">Principles</h2>
     {% for principle in site.data.principles %}
       <div class="post">
         <p>
           <a href="{{ principle.url }}" target="_blank">{{ principle.title }}</a>
         </p>
-        <h5 class="date">{{ principle.author }}</h5>
+        <h5 class="date">by {{ principle.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Process -->
-    <section class="posts">
-    <h2 id="process">// Process</h2>
+  <section class="posts">
+    <h2 id="process">Process</h2>
     {% for process in site.data.process %}
       <div class="post">
         <p>
           <a href="{{ process.url }}" target="_blank">{{ process.title }}</a>
         </p>
-        <h5 class="date">{{ process.author }}</h5>
+        <h5 class="date">by {{ process.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Talks -->
   <section class="posts">
-    <h2 id="talks">// Talks</h2>
+    <h2 id="talks">Talks</h2>
     {% for talk in site.data.talks %}
       <div class="post">
         <p>
           <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>
         </p>
-        <h5 class="date">{{ talk.author }}</h5>
+        <h5 class="date">by {{ talk.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- Type -->
   <section class="posts">
-    <h2 id="typography">// Typography</h2>
+    <h2 id="typography">Typography</h2>
     {% for type in site.data.type %}
       <div class="post">
         <p>
           <a href="{{ type.url }}" target="_blank">{{ type.title }}</a>
         </p>
-        <h5 class="date">{{ type.author }}</h5>
+        <h5 class="date">by {{ type.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <!-- UX -->
   <section class="posts">
-    <h2 id="ux">// UX</h2>
+    <h2 id="ux">UX</h2>
     {% for ux in site.data.ux %}
       <div class="post">
         <p>
           <a href="{{ ux.url }}" target="_blank">{{ ux.title }}</a>
         </p>
-        <h5 class="date">{{ ux.author }}</h5>
+        <h5 class="date">by {{ ux.author }}</h5>
+      </div>
+    {% endfor %}
+  </section>
+
+  <!-- Web Development -->
+  <section class="posts">
+    <h2 id="dev">Web Development</h2>
+    {% for development in site.data.development %}
+      <div class="post">
+        <p>
+          <a href="{{ development.url }}" target="_blank">{{ development.title }}</a>
+        </p>
+        <h5 class="date">by {{ development.author }}</h5>
       </div>
     {% endfor %}
   </section>
 
   <hr>
 
-  <p>This web page is a library of resources around the topic of product design. It's <a href="https://github.com/drocarmo/resources" target="_blank">open-sourced</a> on github if you wish to contribute in any way. Thanks for stopping by.</p>
+  <section>
+    <p>This web page is a library of resources around the topic of product design. It's <a href="https://github.com/drocarmo/resources" target="_blank">open-sourced</a> on github if you wish to contribute in any way. Thanks for stopping by.</p>
+  </section>
 
 </section>
