@@ -38,8 +38,11 @@ p {
 }
 
 a {
+  box-shadow: none;
+
   &:hover,
   &:active {
+    box-shadow: none;
     color: #e83943;
   }
 }
