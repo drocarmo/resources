@@ -11,7 +11,7 @@ desc "compile and run the site"
 task :default do
   pids = [
     spawn("jekyll serve -w"), # put `auto: true` in your _config.yml
-    spawn("sass --watch assets/main.scss:assets/main.css"),
+    spawn("sass --watch css/main.scss:css/main.css"),
   ]
 
   trap "INT" do
