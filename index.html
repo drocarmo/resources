@@ -16,6 +16,9 @@ title: Resources on Product Design
       Table of Contents
     </li>
     <li>
+      <a href="#accessibility">Accessibility & Inclusivity</a>
+    </li>
+    <li>
       <a href="#approach">Approach</a>
     </li>
     <li>
@@ -57,6 +60,19 @@ title: Resources on Product Design
 </section>
 
 <section class="container">
+  <!-- accessibility -->
+  <section class="posts">
+    <h2 id="accessibility">Accessibility & Inclusivity</h2>
+    {% for accessibility in site.data.accessibility %}
+      <div class="post">
+        <p>
+          <a href="{{ accessibility.url }}" target="_blank">{{ accessibility.title }}</a>
+        </p>
+        <h5 class="date">by {{ accessibility.author }}</h5>
+      </div>
+    {% endfor %}
+  </section>
+
   <!-- Approach -->
   <section class="posts">
     <h2 id="approach">Approach</h2>

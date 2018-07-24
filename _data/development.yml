@@ -24,6 +24,10 @@
   url: http://eloquentjavascript.net/
   author: Marijn Haverbeke
 
+- title: Frontend Checklist
+  url: https://frontendchecklist.io/
+  author: David Dias
+
 - title: HTML Semantics & Front-end Architecture
   url: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
   author: Nicolas Gallagher
