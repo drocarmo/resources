@@ -7,9 +7,7 @@
     text-align: center; }
   @media screen and (min-width: 700px) {
     .hero {
-      height: 175px; }
-      .hero p {
-        margin-top: -30px; } }
+      height: 280px; } }
 
 .nav {
   display: none; }
@@ -77,7 +75,11 @@ a {
   content: "";
   margin-right: 0; }
 
-@media screen and (min-width: 700px) {
-  .posts > .post {
-    float: none;
-    width: 100%; } }
+.posts {
+  margin-top: 100px; }
+  @media screen and (min-width: 700px) {
+    .posts > .post {
+      float: none;
+      width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

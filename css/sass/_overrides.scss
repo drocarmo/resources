@@ -65,9 +65,14 @@ a {
   }
 }
 
-.posts > .post {
-  @media screen and (min-width: 700px) {
-    float: none;
-    width: 100%;
+.posts
+  {
+    margin-top: 100px;
+
+  > .post {
+    @media screen and (min-width: 700px) {
+      float: none;
+      width: 100%;
+    }
   }
 }
